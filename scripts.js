@@ -1,11 +1,15 @@
 document.querySelector("main div p").addEventListener("click", changeColor);
+
 document.querySelector("main div:nth-child(2)").addEventListener("click",showObjectOnConsole);
+
 document.querySelector("input").addEventListener("keypress",showObjectOnConsole);
 
-
 document.querySelector("main div:nth-child(6) p").addEventListener("click", deactivateEventListener);
+
 document.querySelector("main div:nth-child(3)").addEventListener("mousemove", randomizer1);
+
 document.querySelector("main div:nth-child(6)").addEventListener("mousemove", randomizer2);
+
 
 
 
@@ -68,6 +72,5 @@ function stopProp (event) {
     alert("evento do P");
     event.stopPropagation();
 }
-
 
 
